@@ -43,7 +43,9 @@ grow(arr);
 
 Programmer - in a small online store since 2019
 
-learning project - [pixema](https://alesijbusch.github.io/pixema/)
+**Learning project** - [pixema](https://alesijbusch.github.io/pixema/)
+
+**Built With**
 
 - React
 - TypeScript
