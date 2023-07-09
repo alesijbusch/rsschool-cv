@@ -95,3 +95,10 @@ body {
 .contact__link:hover {
   border-bottom: 1px solid #374f59;
 }
+.block__list {
+  margin: 0;
+  padding-left: 20px;
+}
+.block__item {
+  margin-bottom: 6px;
+}
