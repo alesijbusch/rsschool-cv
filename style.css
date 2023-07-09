@@ -43,3 +43,55 @@ body {
   font-weight: 400;
   text-transform: uppercase;
 }
+.main {
+  flex-grow: 1;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.block-section {
+  margin-bottom: 50px;
+}
+.columm {
+  padding: 40px 60px;
+}
+.columm-left {
+  flex-basis: 45%;
+  background-color: #cbe5ef;
+  border-radius: 0 0 220px 220px;
+  padding-bottom: 100px;
+}
+.columm-right {
+  flex-basis: 55%;
+}
+.title {
+  margin: 0 0 20px;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+.edu {
+  font-weight: 600;
+  font-size: 20px;
+}
+.description {
+  font-size: 17px;
+}
+.contact__list {
+  margin: 0;
+  padding: 0;
+}
+.contact__item {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.contact__highlight {
+  font-weight: 600;
+}
+.contact__link {
+  color: #374f59;
+  text-decoration: none;
+}
+.contact__link:hover {
+  border-bottom: 1px solid #374f59;
+}
