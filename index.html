@@ -15,7 +15,7 @@
       <div class="container">
         <div class="header__wrapper">
           <div class="header__avatar">
-            <img src="photo.jpg" alt="avatar" class="header__img" >
+            <img class="header__img" src="/assets/img/avatar.jpg" alt="avatar">
           </div>
           <div class="header__content">
             <h1 class="header__title">Alesia Bushkevich</h1>
@@ -32,45 +32,24 @@
               <h2 class="title">Contacts</h2>
               <ul class="contact__list">
                 <li class="contact__item">
-                  <span class="contact__highlight">Phone: </span
-                  ><a
-                    class="contact__link"
-                    href="tel:+375333914065"
-                    rel="nofollow"
-                  >
-                    +375 (33) 391-40-65</a
-                  >
+                  <span class="contact__highlight">Phone: </span>
+                  <a class="contact__link" href="tel:+375333914065" rel="nofollow"> +375 (33) 391-40-65</a>
                 </li>
                 <li class="contact__item">
-                  <span class="contact__highlight">Email: </span
-                  ><a
-                    class="contact__link"
-                    href="mailto:alesijbuasch@gmail.com"
-                    rel="nofollow"
-                    >alesijbusch@gmail.com</a
-                  >
+                  <span class="contact__highlight">Email: </span>
+                  <a class="contact__link" href="mailto:alesijbuasch@gmail.com" rel="nofollow" >alesijbusch@gmail.com</a>
                 </li>
                 <li class="contact__item">
-                  <span class="contact__highlight">Telegram: </span
-                  ><a class="contact__link" href="https://t.me/alesiabush"
-                    >t.me/alesiabush</a
-                  >
+                  <span class="contact__highlight">Telegram: </span>
+                  <a class="contact__link" href="https://t.me/alesiabush">t.me/alesiabush</a>
                 </li>
                 <li class="contact__item">
-                  <span class="contact__highlight">GitHub: </span
-                  ><a
-                    class="contact__link"
-                    href="https://github.com/alesijbusch"
-                    >alesijbusch</a
-                  >
+                  <span class="contact__highlight">GitHub: </span>
+                  <a class="contact__link" href="https://github.com/alesijbusch">alesijbusch</a>
                 </li>
                 <li class="contact__item">
-                  <span class="contact__highlight">LinkedIn: </span
-                  ><a
-                    class="contact__link"
-                    href="https://www.linkedin.com/in/alesia-bushkevich-82676a266/"
-                    >alesia-bushkevich</a
-                  >
+                  <span class="contact__highlight">LinkedIn: </span>
+                  <a class="contact__link" href="https://www.linkedin.com/in/alesia-bushkevich-82676a266/" >alesia-bushkevich</a>
                 </li>
                 <li class="contact__item">
                   <span class="contact__highlight">Discord: </span>alesia4201
@@ -95,24 +74,9 @@
             </section>
             <section class="block-section portfolio">
               <h2 class="title">Portfolio</h2>
-              <a
-                href="https://alesijbusch.github.io/pixema/"
-                target="_blank"
-                class="portfolio-item"
-                >Pixema</a
-              >
-              <a
-                href="https://xn--80akvbdflu2c.xn--90ais/"
-                target="_blank"
-                class="portfolio-item"
-                >Our repair</a
-              >
-              <a
-                href="https://github.com/alesijbusch/Axit"
-                target="_blank"
-                class="portfolio-item"
-                >Axit</a
-              >
+              <a class="portfolio-item" href="https://alesijbusch.github.io/pixema/" target="_blank" >Pixema</a>
+              <a class="portfolio-item" href="https://xn--80akvbdflu2c.xn--90ais/" target="_blank" >Our repair</a>
+              <a class="portfolio-item" href="https://github.com/alesijbusch/Axit" target="_blank" >Axit</a>
             </section>
           </div>
           <div class="columm columm-right">
@@ -124,6 +88,20 @@
                 goal is to acquire sufficient knowledge and skills to get a job
                 in a company.
               </p>
+            </section>
+            <section class="block-section code">
+              <h2 class="title">Code example</h2>
+              <pre class="code-highlight">
+                <code><span class="kd">let</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">];</span>
+                  <span class="kd">function</span> <span class="nx">grow</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+                    <span class="kd">let</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">x</span><span class="p">.</span><span class="nx">reduce</span><span class="p">((</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                      <span class="k">return</span> <span class="nx">a</span> <span class="o">*</span> <span class="nx">b</span><span class="p">;</span>
+                    <span class="p">});</span>
+                    <span class="k">return</span> <span class="nx">result</span><span class="p">;</span>
+                  <span class="p">}</span>
+                  <span class="nx">grow</span><span class="p">(</span><span class="nx">arr</span><span class="p">);</span>
+                </code>
+              </pre>
             </section>
             <section class="block-section education">
               <h2 class="title">Education</h2>
@@ -154,20 +132,13 @@
       <div class="container">
         <div class="footer-wrapper">
           <div class="logo">
-            <a href="https://rs.school/js/" target="_blank" class="logo__link">
-              <img
-                src="rs_school_js.svg"
-                alt="rs_school_js"
-                class="logo__img">
+            <a class="logo__link" href="https://rs.school/js/" target="_blank">
+              <img src="/assets/svg/rs_school_js.svg" alt="rs_school_js" class="logo__img">
             </a>
           </div>
           <div class="github">
-            <a
-              href="https://github.com/alesijbusch"
-              target="_blank"
-              class="github__link"
-            >
-              <img src="github.svg" alt="github" class="github__img">
+            <a class="github__link" href="https://github.com/alesijbusch" target="_blank">
+              <img class="github__img" src="/assets/svg/github.svg" alt="github">
             </a>
           </div>
           <div class="year">2023</div>
