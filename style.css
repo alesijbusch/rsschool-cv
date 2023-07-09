@@ -120,3 +120,19 @@ body {
   font-size: 17px;
   margin: 5px 0;
 }
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0;
+}
+.logo .logo__img {
+  width: 100px;
+}
+.github .github__img {
+  width: 60px;
+}
+.year {
+  font-size: 25px;
+  font-weight: 600;
+}
