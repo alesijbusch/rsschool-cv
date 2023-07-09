@@ -102,3 +102,12 @@ body {
 .block__item {
   margin-bottom: 6px;
 }
+.portfolio-item {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  color: #374f59;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
