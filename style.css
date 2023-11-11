@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: #374f59;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header__wrapper .header__avatar {
+  flex-basis: 45%;
+  padding: 40px 60px;
+  background-color: #cbe5ef;
+}
+
+.header__wrapper .header__content {
+  flex-basis: 55%;
+  padding: 40px 60px;
+}
+
+.header__wrapper .header__img {
+  display: block;
+  width: 65%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.header__content .header__title {
+  margin: 35px 0 20px;
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.header__content .header__subtitle {
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-section {
+  margin-bottom: 50px;
+}
+
+.columm {
+  padding: 40px 60px;
+}
+
+.columm-left {
+  flex-basis: 45%;
+  padding-bottom: 100px;
+  background-color: #cbe5ef;
+  border-radius: 0 0 220px 220px;
+}
+
+.columm-right {
+  flex-basis: 55%;
+}
+
+.title {
+  margin: 0 0 20px;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.edu {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 17px;
+}
+
+.contact__list {
+  margin: 0;
+  padding: 0;
+}
+
+.contact__item {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.contact__highlight {
+  font-weight: 600;
+}
+
+.contact__link {
+  text-decoration: none;
+  color: #374f59;
+}
+
+.contact__link:hover {
+  border-bottom: 1px solid #374f59;
+  transition: .3s;
+}
+
+.block__list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.block__item {
+  margin-bottom: 6px;
+}
+
+.portfolio-item {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #374f59;
+}
+
+.edu-title {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.edu-description {
+  margin: 5px 0;
+  font-size: 17px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.logo .logo__img {
+  width: 100px;
+}
+
+.github .github__img {
+  width: 60px;
+}
+
+.year {
+  font-size: 25px;
+  font-weight: 600;
+}
+.code-highlight{
+  padding-top: 20px;
+  background-color: #cbe5ef;
+  border-radius: 20px;
+}
